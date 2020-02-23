@@ -52,13 +52,15 @@ body{
 
 #front h2{
   margin-left: 30px;
-  margin-top: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
   font-size: 28px;
 }
 
 #front hr{
   width: 75%;
   background: white;
+  margin-bottom: 5px;
 }
 
 #back {
@@ -86,8 +88,8 @@ body{
 #links{
   font-size: 23px;
   margin-left: 25px;
-  margin-top: 15px;
-  line-height: 36px;
+  margin-top: 0px;
+  line-height: 40px;
 }
 
 #links a{
