@@ -1,2 +1,2 @@
 # My Card
-This is my "buisness" card
+This is my "business" card
