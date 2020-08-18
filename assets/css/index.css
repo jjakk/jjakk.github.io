@@ -36,6 +36,9 @@ body{
   display: block;
   margin: auto;
   margin-top: 70px;
+  width: 168px;
+  height: 168px;
+  opacity: 0.35;
 }
 
 #front {
