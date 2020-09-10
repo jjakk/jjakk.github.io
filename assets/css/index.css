@@ -21,13 +21,13 @@ body{
 
 #card {
   background-color: transparent;
-  width: 500px;
-  height: 300px;
+  width: 550px;
+  height: 350px;
   position: absolute;
   left: 50vw;
   top: 50vh;
-  margin-left: -250px;
-  margin-top: -150px;
+  margin-left: -275px;
+  margin-top: -175px;
   perspective: 1000px;
   cursor: default;
 }
@@ -35,7 +35,7 @@ body{
 #logo{
   display: block;
   margin: auto;
-  margin-top: 70px;
+  margin-top: 95px;
   width: 168px;
   height: 168px;
   opacity: 0.35;
