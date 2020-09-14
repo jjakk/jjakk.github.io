@@ -1,4 +1,6 @@
 
+/* Fonts */
+
 @font-face{
   src: url('../fonts/Roboto/Roboto-Regular.ttf');
   font-family: 'Roboto';
@@ -9,13 +11,23 @@
   font-family: 'Roboto Light';
 }
 
+/* Ids */
+
+#card{
+  background: #303030;
+}
+
+/* Tags */
+
+body{
+  background: #f2f2f2;
+}
+
+/* Other */
+
 *{
   font-family: 'Roboto Light';
   color: white;
   font-weight: normal;
 }
 
-body{
-  background: #f2f2f2;
-}
-  
