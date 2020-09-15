@@ -15,12 +15,34 @@
 
 #card{
   background: #303030;
+  width: 480px;
+  height: 280px;
+  padding: 10px;
 }
 
 /* Tags */
 
 body{
   background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr{
+  margin: 0px;
+}
+
+hr.small{
+  width: 25%;
+}
+
+hr.medium{
+  width: 50%;
+}
+
+hr.large{
+  width: 100%;
 }
 
 /* Other */
@@ -30,4 +52,6 @@ body{
   color: white;
   font-weight: normal;
 }
+
+/* Animations */
 
