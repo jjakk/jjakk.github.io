@@ -44,6 +44,8 @@
 
 .card-icons a{
   margin: 0px 10px 0px 10px;
+  text-decoration: none;
+  text-align: center;
 }
 
 .card-icons i{
@@ -51,8 +53,21 @@
   transition: 0.1s font-size;
 }
 
-.card-icons i:hover{
+.card-icons label{
+  transition: 0.1s font-size;
+}
+
+.card-icons a:hover > i{
   font-size: 50px;
+}
+
+.card-icons a:hover > label{
+  font-size: 30px;
+}
+
+.card-icons label{
+  margin-top: 20px;
+  font-size: 0px;
 }
 
 /* Tags */
