@@ -54,7 +54,7 @@
 }
 
 .card-icons label{
-  transition: 0.1s font-size;
+  transition: 0.25s font-size;
 }
 
 .card-icons a:hover > i{
