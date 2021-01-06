@@ -117,3 +117,15 @@ body{
   right: 15px;
   opacity: 0.5;
 }
+
+#copyright{
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  color: #303030;
+  opacity: 0.6;
+}
+
+
