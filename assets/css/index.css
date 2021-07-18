@@ -17,17 +17,15 @@
 
 body{
   background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #card {
   background-color: transparent;
   width: 550px;
-  height: 350px;
-  position: absolute;
-  left: 50vw;
-  top: 50vh;
-  margin-left: -275px;
-  margin-top: -175px;
+  height: 300px;
   perspective: 1000px;
   cursor: default;
 }
@@ -54,8 +52,8 @@ body{
 
 #front h2{
   margin-left: 30px;
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
   font-size: 28px;
 }
 
@@ -95,8 +93,8 @@ body{
 #links{
   font-size: 23px;
   margin-left: 25px;
-  margin-top: 20px;
-  line-height: 45px;
+  margin-top: 10px;
+  line-height: 40px;
 }
 
 #links a{
