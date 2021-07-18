@@ -35,7 +35,6 @@ body{
 #logo{
   display: block;
   margin: auto;
-  margin-top: 95px;
   width: 168px;
   height: 168px;
   opacity: 0.35;
@@ -71,6 +70,9 @@ body{
   background-color: #151515;
   color: white;
   transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #inner {
@@ -113,6 +115,8 @@ body{
 #website{
   font-size: 20px;
   position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   bottom: 15px;
   right: 15px;
   opacity: 0.5;
